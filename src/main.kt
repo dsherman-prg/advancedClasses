@@ -1,3 +1,12 @@
+/**
+ * Class main
+ * @author David Sherman
+ * date: 10/17/2021
+ * @param
+ * emp1: default info for employee 1
+ * emp2: default info for employee 2
+ * emp3: default info for employee 3
+ */
 fun main() {
     // Example employees
     val emp1 = Employee("Jane Doe", Employee.PositionTitle.ADMINISTRATION, true, 27.00, 1);

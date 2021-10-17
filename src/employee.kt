@@ -1,5 +1,19 @@
 import java.text.DecimalFormat
-
+/**
+ * Class employee
+ * @author David Sherman
+ * date: 10/17/2021
+ * @param
+ * name: Full name of employee
+ * position: What position they hold in the company
+ * salary: If they are salaried or not
+ * payRate: How much they are paid by the hour
+ * shift: What shift they work being 1st 2nd or 3rd
+ *
+ * display function: formats employee info into readable user info and prints it
+ *
+ * PositionTitle: formats employee position into user-friendly text
+ */
 // Create employee class
 class Employee(
     private var name: String,
@@ -26,8 +40,6 @@ class Employee(
         if (hours > 40){
             hoursWorked = 40
         }
-
-
 
         // Calculate pay if salaried
         if (salary){
